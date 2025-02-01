@@ -198,11 +198,10 @@ for image_path in image_files:
                 'Median': median_val,
                 'Max': max_val,
                 'Composite Metric': comp_metric,
-                'Exp Metric': np.exp(0.4 * median_val + 0.4 * percentile_75_val + 0.4 * max_val + 0.2 * std_val),
                 'BRG': avg_brg,
                 'Edge Density': avg_edge,
-                'TGDI': avg_tgdi,
                 'TGDI_image': tgdi_imageLevel
+                'VegMetric': np.exp(-0.8465 * comp_metric + 0.3526 * tgdi_imageLevel)
             })
 
 # Write data to CSV and generate statistics
