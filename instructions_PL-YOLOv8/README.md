@@ -2,7 +2,7 @@
 ```markdown
 # Data & Weights Download Instructions
 
-This folder contains instructions for downloading the datasets and model weights required for this project.
+This folder contains instructions for downloading the datasets and installation required for this project.
 
 ---
 
