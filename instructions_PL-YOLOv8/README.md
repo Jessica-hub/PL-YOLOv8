@@ -95,5 +95,4 @@ yolo task=obb mode=train model=yolov8m-ehobb.yaml \
   🔗 [Ultralytics YOLOv8 Documentation](https://github.com/ultralytics/ultralytics/tree/main)
 
 Happy Training! 🚀🔥
-```
 
