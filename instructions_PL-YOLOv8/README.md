@@ -12,7 +12,7 @@ This folder contains instructions for downloading the datasets and installation 
 - **Download Link:** [image640.zip](https://drive.google.com/file/d/1W1UfZsbCIQWDTiSzhQjwEQkO_hrOxl8S/view?usp=drive_link)
 
 ### 2️⃣ `images_vegmetric.zip`
-- **Description:** This dataset contains power line image data used for generating vegetation encroachment metrics via `VegEncrochIndex/Final.py`.
+- **Description:** This dataset contains power line image data used for generating vegetation encroachment metrics via `veg_encroch_index/Final.py`.
 - **Download Link:** [images_vegmetric.zip](https://drive.google.com/file/d/19xxtcgXUuCRm7JSNGakvloeHml36Do-E/view?usp=sharing)
 
 ---
