@@ -1,5 +1,4 @@
 
-```markdown
 # Data & Weights Download Instructions
 
 This folder contains instructions for downloading the datasets and installation required for this project.
