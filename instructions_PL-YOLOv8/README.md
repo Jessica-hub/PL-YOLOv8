@@ -3,7 +3,7 @@
 
 This folder includes instructions for downloading the necessary datasets and installations for the project. The directional block is located in `block.py` within the `ultralytics/nn/modules/` directory, and the `yolov8-ehobb` configuration is under `ultralytics/cfg/models/v8`.You are advised to download the base YOLOv8 model and integrate these modifications as specified. Additionally, the algorithm for assessing vegetation metrics is accessible in Final.py within the veg_encroch_index directory.
 
-For further reading on the application of this technology, refer to the paper titled "Advanced YOLO-based Real-time Power Line Detection for Vegetation Management," which is currently under review.
+**For further reading on the application of this technology, refer to the paper titled "Advanced YOLO-based Real-time Power Line Detection for Vegetation Management," which is currently under review.**
 ---
 
 ## 📂 Datasets
