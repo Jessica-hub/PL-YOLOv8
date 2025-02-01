@@ -126,10 +126,10 @@ def remove_outliers(metrics):
     return [x for x in metrics if lower_bound <= x <= upper_bound]
 
 # Load the model
-params = r"C:\Users\olivi\ultralytics\PLproject-selected\ehobb_imgsz640_20002\weights\best.pt"
+params = r"path/to/your/destination/folder/best.pt"
 model = YOLO(params)
 
-image_folder = r"C:\Users\olivi\datasets\powerLines\images640\valid"
+image_folder = r"path/to/your/destination/folder"
 image_files = [os.path.join(image_folder, f) for f in os.listdir(image_folder) if f.endswith(('.jpg', '.png'))]
 
 # Data storage for CSV files

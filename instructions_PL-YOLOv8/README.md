@@ -1,8 +1,7 @@
 
-```markdown
 # Data & Weights Download Instructions
 
-This folder contains instructions for downloading the datasets and model weights required for this project.
+This folder contains instructions for downloading the datasets and installation required for this project.
 
 ---
 
@@ -96,5 +95,4 @@ yolo task=obb mode=train model=yolov8m-ehobb.yaml \
   🔗 [Ultralytics YOLOv8 Documentation](https://github.com/ultralytics/ultralytics/tree/main)
 
 Happy Training! 🚀🔥
-```
 
