@@ -200,8 +200,8 @@ for image_path in image_files:
                 'Composite Metric': comp_metric,
                 'BRG': avg_brg,
                 'Edge Density': avg_edge,
-                'TGDI_image': tgdi_imageLevel
-                'VegMetric': np.exp(-0.8465 * comp_metric + 0.3526 * tgdi_imageLevel)
+                'TGDI_image': tgdi_imageLevel,
+                'VegMetric': -0.8465 * comp_metric + 0.3526 * tgdi_imageLevel
             })
 
 # Write data to CSV and generate statistics
