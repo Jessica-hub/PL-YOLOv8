@@ -201,7 +201,7 @@ for image_path in image_files:
                 'BRG': avg_brg,
                 'Edge Density': avg_edge,
                 'TGDI_image': tgdi_imageLevel,
-                'VegMetric': -0.8465 * comp_metric + 0.3526 * tgdi_imageLevel
+                'VegMetric': 0.3526 * comp_metric - 0.8465 * tgdi_imageLevel #after the comp_metric and tgdi_imagelevel are normalized
             })
 
 # Write data to CSV and generate statistics
