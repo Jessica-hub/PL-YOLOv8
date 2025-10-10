@@ -5,8 +5,6 @@ This folder includes instructions for downloading the necessary datasets and ins
 
 **For further reading on the application of this technology, refer to the paper titled "Advanced YOLO-based Real-time Power Line Detection for Vegetation Management," which is available at https://www.arxiv.org/abs/2503.00044.**
 
-Recommended Citation
-S. Rong, L. He, S. F. Atici and A. E. Cetin. "Advanced YOLO-Based Real-Time Power Line Detection for Vegetation Management." IEEE Transactions on Power Delivery, vol. 40, no. 4, pp. 2142–2153, 2025.
 ---
 
 ## 📂 Datasets
@@ -100,3 +98,6 @@ yolo task=obb mode=train model=yolov8m-ehobb.yaml \
 
 Happy Training! 🚀🔥
 
+
+## Recommended Citation
+S. Rong, L. He, S. F. Atici and A. E. Cetin. "Advanced YOLO-Based Real-Time Power Line Detection for Vegetation Management." IEEE Transactions on Power Delivery, vol. 40, no. 4, pp. 2142–2153, 2025.
